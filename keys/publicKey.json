@@ -1,0 +1,10 @@
+{
+  "kty": "RSA",
+  "alg": "RSA-OAEP-256",
+  "n": "w2sE-AqO-fusr80O8uZ_YxCNSxuXyGgateQ_WaZj0ypMtq5V88KEzVqPHX4GfiZBUoyN3M3yDC1zTjb9lcsqcCiDfLyCgD7uH-uka_8kta-LPVPcXKrF-aJct89cp-A9pHhGFww9NqFpYQbGaYehJHcOygbdMFtjllGfe8ZOTZdtTOMiyoFzb0fiT6gLLu6Immf2JmYOlOVcZTwhMwwJk3EQZ8ze-Ip3bttZRre9aQlsnd88d0Sgn7e439MhRpgd0Dp4N6hWgoR1b8MZXlaqj46WNvzwN7Dpgqb_n1jp8SFAMZWYt1soTml86vkEdbHtliT34DMdWcHkEB_DRVryJA0m_fdL1Kq-9LNpN-DEdGpPPIeVtO6baP_YWEQHewNXUAjgj0-U28eMr2KS4udJoW7MRrclVmCw2EJgGhIU6KJXLvOXoo6HnhSVCgp51NUOZPkD5DTejjiahOJEvtgFx9b_vSSVbJicHTn99Z23j3DwIxeeOLpPqY1pBT1tXqCf7Vq9KDLdHgdb5wV6EAPUsUUlmM7ZWTtCs5vaA3jnUACDVbottLHI1B98TMR-NhkVDZco29dgFNQH5aoMiyG7WMdLQqrTjAOXSEok-lz7OkSRMR5DiWtsVevQ0Ik0C3FTuLPHnq60zWMEQg_0mKrseN7euPaP5A2hMNjja4j4fmc",
+  "e": "AQAB",
+  "key_ops": [
+    "encrypt"
+  ],
+  "ext": true
+}

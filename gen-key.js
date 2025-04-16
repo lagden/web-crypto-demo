@@ -1,4 +1,4 @@
-const {subtle} = crypto
+const { subtle } = crypto
 
 function generateKeys(hash = 'SHA-256') {
 	return subtle.generateKey(
@@ -9,7 +9,7 @@ function generateKeys(hash = 'SHA-256') {
 			hash,
 		},
 		true,
-		['encrypt', 'decrypt']
+		['encrypt', 'decrypt'],
 	)
 }
 
@@ -24,4 +24,4 @@ const publicKey = await exportKey(keys, 'publicKey')
 await Deno.writeTextFile('./keys/privateKey.json', JSON.stringify(privateKey, undefined, '  '))
 await Deno.writeTextFile('./keys/publicKey.json', JSON.stringify(publicKey, undefined, '  '))
 
-console.log(JSON.stringify({privateKey, publicKey}))
+console.log(JSON.stringify({ privateKey, publicKey }))

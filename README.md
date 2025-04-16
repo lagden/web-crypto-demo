@@ -1,40 +1,37 @@
 # Web Crypto: encrypt/decrypt
 
-Exemplo de como utilizar.
+Exemplo de utilização.
 
 ## Chaves
 
-Primeiro criamos o par de chaves (`private/public`).  
-A chave pública será utilizado na aplicação frontend para criptografar a mensagem.
+Primeiro, criamos o par de chaves (privada/pública).\
+A chave pública será utilizada na aplicação frontend para criptografar a mensagem.
 
-```
+```bash
 deno run gen-key.js
 ```
 
-O comando acima irá criar as chaves pública e privada na pasta `keys`.
+O comando acima criará as chaves pública e privada na pasta `keys`.
 
-A chave pública `keys/publicKey.json` tem que ser importado no [REPL](https://svelte.dev/repl/9eba449663044c67bc7223ef99f04974?version=4.2.18) para criptografar a mensagem no formato `JWE`.
+A chave pública `keys/publicKey.json` deve ser importada no [REPL](https://svelte.dev/repl/9eba449663044c67bc7223ef99f04974) para criptografar a mensagem no formato `JWE`.
 
 ---
 
-Para o backend ler a mensagem, copie o `JWE (eyJhbGci...VQUkA)` gerado no [REPL](https://svelte.dev/repl/9eba449663044c67bc7223ef99f04974?version=4.2.18), cole no arquivo `read.js` ou `read.py`, salve e rode:
+Para que o backend leia a mensagem, copie o `JWE (eyJhbGci...VQUkA)` gerado no [REPL](https://svelte.dev/repl/9eba449663044c67bc7223ef99f04974), cole no arquivo `read.js` ou `read.py`, salve e execute:
 
-```
+```bash
 deno run read.js
 ```
 
-ou via python
+ou, via Python:
 
-```
+```bash
 pip install -r requirements.txt
 python read.py
 ```
 
-## Team
+Você também pode executar o script de demonstração com:
 
-[<img src="https://avatars.githubusercontent.com/u/130963?s=390" alt="Lagden" width="90">](https://gitlab.textecnologia.io/lagden) 
-
-
-## Copyright
-
-[TEx Tecnologia](https://www.textecnologia.com.br/)
+```bash
+deno demo.ts -m "maravilha"
+```

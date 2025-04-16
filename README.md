@@ -1,6 +1,6 @@
 # Web Crypto: encrypt/decrypt
 
-Exemplo de utilização.
+Exemplo de utilização do Web Crypto - JWE ou JSON Web Encryption
 
 ## Chaves
 
